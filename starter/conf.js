@@ -8,13 +8,15 @@ exports.config = {
   specs: ['spec.js'],
   framework: 'jasmine',
 
-  onPrepare: () => {
+  onPrepare: async () => {
       // set browser size...
       browser.manage().window().setSize(1024, 800);
 
       // better jasmine 2 reports...
       const SpecReporter = require('jasmine-spec-reporter');
       jasmine.getEnv().addReporter(new SpecReporter({displayStacktrace: 'specs'}));
+
+      browser.waitForAngularEnabled(false);
   },
 
   capabilities: {

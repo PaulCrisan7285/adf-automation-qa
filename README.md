@@ -36,9 +36,9 @@ Automate the following scenario using protractor:
 
 In the README file of the repository we want to see also the following sections:
 
-1. ***Description*** Describes of how to run the automation test
-2. ***Explanation*** Describes the choice made in the solution
-3. ***Prerequisites*** List here what/if anything needs to be installed
+1. ***Description*** run the protractor conf.js in command line.
+2. ***Explanation*** I choosen to use a page object pattern so it will be easy to maintain the tests.
+3. ***Prerequisites*** We need to install node.js, protractor and the project dependcies.
 
 You can send the link to your fork at mario.romano@alfresco.com. Feel free to attach also your cv and a link to your linkedin profile.
 
